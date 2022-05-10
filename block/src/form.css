@@ -1,0 +1,94 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {}
+
+.one h1 {
+    color: rgb(3, 190, 190);
+    text-transform: uppercase;
+    text-align: center;
+}
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.one form {
+    background-color: rgb(13, 13, 13);
+    width: 280px;
+    height: 280px;
+    display: gird;
+    place-items: center;
+    border-radius: 25px 15px 25px 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.one h1 {
+    color: rgb(3, 190, 190);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.one p {
+    text-transform: capitalize;
+    margin-left: 0px;
+    font-weight: bold;
+    color: rgb(97, 89, 89);
+    padding: 4px;
+    text-align: center;
+}
+
+.one input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: rgb(207, 226, 226);
+    margin-left: 50px;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+.one input[type="email"] {
+    border: none;
+    outline: none;
+    background-color: rgb(207, 226, 226);
+    margin-left: 50px;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+.one input[type="password"] {
+    border: none;
+    outline: none;
+    background-color: rgb(207, 226, 226);
+    margin-left: 50px;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+.one input[type="submit"] {
+    border: none;
+    margin-left: 50px;
+    text-transform: capitalize;
+    outline: none;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    border-radius: 7px;
+}
